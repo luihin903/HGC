@@ -6,13 +6,14 @@ public class App extends JFrame {
 
     public App(String title) {
         super(title);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLocation(0, 0);
         Panel panel = new Panel();
-        this.add(panel);
-        this.pack();
-        this.setLocationRelativeTo(null);
-        this.setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocation(0, 0);
+        add(panel);
+        pack();
+        setLocationRelativeTo(null);
+        setVisible(true);
+        setResizable(false);
     }
 
     public static void main(String[] args) {

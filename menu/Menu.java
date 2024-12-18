@@ -10,6 +10,7 @@ public class Menu {
     public final int HEIGHT = 720;
 
     public void draw(Graphics2D g) {
+        
         g.setColor(Color.WHITE);
         g.fill(new Rectangle(WIDTH, HEIGHT));
 
